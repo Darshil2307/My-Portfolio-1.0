@@ -1,0 +1,75 @@
+.Myself{
+background-color: rgb(10, 235, 58);
+display: flex;
+justify-content: space-between;
+}
+
+.Games{
+display :flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+
+.Menu{
+   margin-right: 30px;
+   margin-top: 20px;
+}
+
+.Menu a{
+   margin-left: 20px;
+   
+   padding: 20%;
+}
+
+.Items{
+  position:relative;
+}
+
+p{
+   font-size: larger;
+   font-family: 'Gill Sans';
+   text-align: center;
+}
+
+.Items p{
+   position : absolute;
+   top : 30%;
+   left:50%;
+   font-size: 150%;
+   font-family : verdana;
+   color: rgb(236, 13, 13);
+   transform : translate(-50%,-50%);
+   opacity : 0;
+}
+
+.Items:hover p{
+     opacity : 1;
+}
+
+.Items:hover img{
+    opacity : 0.33;
+}
+.footer{
+display: flex;    
+justify-content: flex-end;
+}
+
+h2{
+text-align: center;
+}
+
+h1{
+  padding-left:30px ;
+}
+
+body{
+   background-color: #0baff0 
+}
+
+a:link{
+  color :aquamarine;
+}
+
+a:visited{
+   color : red;
+}
